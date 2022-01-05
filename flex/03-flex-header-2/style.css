@@ -9,9 +9,32 @@ body {
 }
 
 .header {
+  padding: 10px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_links {
+  display: flex;
+  justify-content: space-between
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: bold;
+ 
+}
+
+.notification_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px
 }
 
 .profile-image {
@@ -35,6 +58,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  font-weight: bold;
 }
 
 a {
